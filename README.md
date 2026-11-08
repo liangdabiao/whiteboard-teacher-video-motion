@@ -101,10 +101,10 @@ cd <skill> && python scripts/ftrender.py D:/films/my-sample --fps 24
 | ① 分镜 | 读 `references/storyboard-method.md`，写 `storyboard.json` | **停下来把分镜念给用户确认**，这是唯一强制闸门 |
 | ② 口播 | 写 `script.js`，`META.extras` 填四项 | 顺序不能反，见下 |
 | ③ 建项目 | `python scripts/ftnew.py <项目> --title "..." --style whiteboard` | 项目放在 skill 目录之外 |
-| ④ 素材 | `python scripts/ftasset.py <项目> --spec <项目>/assets.json` | 离线复用或付费生成 |
+| ④ 素材 | `python scripts/ftasset.py <项目> --spec <项目>/assets.json` | 离线复用或付费生成；**素材必须本片主题专属，禁止整库复制上一部片子** |
 | ⑤ 配音 | `python scripts/ftvoice.py <项目>` | 默认 edge 免费；可选 apiz / 自备音频 |
 | ⑥ 画面 | 逐页写 `pages/pNN.js` | `P.vector` / `P.clip` + 手绘混排 |
-| ⑦ 质检 | `python scripts/ftcheck.py <项目>` | lint + 每页拼图，逐页看图 |
+| ⑦ 质检 | `python scripts/ftcheck.py <项目>` | lint + 每页拼图，**逐页看图核对图文一致**（图不对题 lint 查不出） |
 | ⑧ 终态 | `cd <项目> && node engine/tools/snap.mjs --only pNN <讲完时刻> --sheet pNN-final` | 结尾才出现的元素拼图看不全 |
 | ⑨ 确定性 | `cd <项目> && node <skill>/scripts/ftdeterminism.mjs` | 含 `P.clip` 必跑 |
 | ⑩ 成片 | `python scripts/ftrender.py <项目> --fps 24` | 产出有/无字幕 mp4 + srt |
