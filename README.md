@@ -15,6 +15,8 @@
 10 个 GIF 拆帧循环，混排手绘机械运动、配比条、计数器、相机推镜。
 确定性校验 11/11 页像素一致。
 
+B站视频例子： https://www.bilibili.com/video/BV15SW76KEzJ/?vd_source=86926e418c83af75f6850b5546388a79
+
 ---
 
 ## 它和上游项目的关系
@@ -201,3 +203,5 @@ vendor/ATTRIBUTION.md           第三方归属与许可说明
 ---
 
 作者：liangdabiao · <497070928@qq.com>
+
+特别致谢： https://linux.do 社区支持
