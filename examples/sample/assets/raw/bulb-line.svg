@@ -1,0 +1,42 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+  <title>Incandescent Light Bulb Line Diagram</title>
+  <desc>Single-color technical line-art of a light bulb with filament, support wires, and screw base.</desc>
+  <g fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    
+    <path d="M374 640h276v18H374z" />
+    
+    <path d="M386 670              C470 700, 554 670, 636 700              C580 725, 500 760, 430 735              C500 760, 580 730, 652 760              C600 785, 520 815, 440 790              C510 820, 590 800, 668 828              " />
+    
+    <path d="M512 860              a44 44 0 0 0 44-44              h-88              a44 44 0 0 0 44 44z" />
+    
+    <path d="M462 560              v60              a12 12 0 0 0 12 12              h56              a12 12 0 0 0 12-12              v-60" />
+    
+    <path d="M476 520              c12-12 36-12 48 0              v8              c0 6-6 10-12 10              h-24              c-6 0-12-4-12-10              v-8z" />
+    
+    <path d="M380 372 L476 548" />
+    <path d="M644 372 L548 548" />
+    
+    <path d="M392 372              c18 -30, 46 -30, 64 0              c18 30, 46 30, 64 0              c18 -30, 46 -30, 64 0              c18 30, 46 30, 64 0" />
+    
+    <circle cx="392" cy="372" r="6" fill="#111111" stroke="none" />
+    <circle cx="708" cy="372" r="6" fill="#111111" stroke="none" />
+  </g>
+
+  
+  <g fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    
+    <path d="M512 160              C380 160, 260 260, 300 420              C340 540, 392 600, 392 640              H632              C632 600, 684 540, 724 420              C764 260, 644 160, 512 160z" />
+    
+    <path d="M392 640              C392 640, 392 658, 374 658" />
+    <path d="M632 640              C632 640, 632 658, 650 658" />
+    
+    <path d="M460 236              c28 -20, 68 -36, 120 -36" />
+  </g>
+
+  
+  <g fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round">
+    <path d="M512 64 L512 112" />
+    <path d="M344 144 L296 200" />
+    <path d="M680 144 L728 200" />
+  </g>
+</svg>

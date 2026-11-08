@@ -1,0 +1,23 @@
+{
+  "defaults": {
+    "quality": "low",
+    "complexity": "low",
+    "aspect_ratio": "1:1",
+    "size": "1K"
+  },
+  "svg": [
+    {
+      "name": "bulb-line",
+      "prompt": "An elegant single-color line-art technical diagram of an incandescent light bulb, uniform 3px dark ink strokes, showing the glass envelope, coiled filament, inner support wires and screw base, three short rays around it, precise geometric paths, editorial technical illustration, plain light background, no gradient, no text, no logo, output as clean native SVG vector paths",
+      "svg_author_model": "gpt-5-mini"
+    }
+  ],
+  "gif": [
+    {
+      "name": "bulb-pulse",
+      "prompt": "A single centered minimalist light bulb, its soft golden halo gently pulsing brighter then dimmer, fixed camera, smooth even motion, every detail of the bulb stays identical across frames, ending exactly back at the starting pose for a seamless loop, clean flat pale background, no text, no logo",
+      "frame_count": 9,
+      "frame_duration_ms": 200
+    }
+  ]
+}
